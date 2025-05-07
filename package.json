@@ -2,6 +2,8 @@
   "name": "trading-platform-test",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://trading-backend-drj1.onrender.com",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
