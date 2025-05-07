@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 
 // Create axios instance
 const apiClient = axios.create({
-  baseURL: "http://localhost:8080/api/v1",
+  baseURL: "https://trading-backend-drj1.onrender.com/api/v1",
   timeout: 10000,
   headers: {
     "Content-Type": "application/json",

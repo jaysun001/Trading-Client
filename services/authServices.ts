@@ -7,7 +7,7 @@ import { jwtDecode } from "jwt-decode";
 
 // Get API base URL from environment variables
 const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8080/api/v1";
+  process.env.NEXT_PUBLIC_API_BASE_URL || "https://trading-backend-drj1.onrender.com/api/v1";
 
 // Types
 export interface LoginCredentials {
